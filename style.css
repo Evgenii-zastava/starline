@@ -1,0 +1,442 @@
+* {
+  box-sizing: border-box
+} 
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1, h2, h3, p, ul, li{
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 27px 0 27px 18px;
+}
+
+.head_relative {
+  position: relative;
+}
+
+.absolut_contact{
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
+}
+
+.absolut_contact a{
+  display: inline-block;
+}
+
+.absolut_contact h2{
+  display: inline-block;
+  color:#035ba5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo_mini {
+  display: inline;
+}
+
+.logo_mini img {
+  width: 70px;
+}
+
+.fixed-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.mobile_phone {
+  position: fixed;
+  right: 200px;
+  bottom: 250px;
+  width: 70px;
+  height: 70px;
+  z-index: 10;
+}
+
+.mobile_phone{
+  display: none;
+}
+
+.mobile_phone-icon{
+  width: 180px;
+}
+
+
+.call_img {
+  width: 125px;
+  height: 42px;
+  }
+
+.garant {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.garant h2 {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  display: inline;
+}
+
+.header-main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navigation {
+  padding-top: 40px;
+  background-color: #a8d435;
+}
+
+.buttom_tel {
+position: fixed;
+right: 10px;
+bottom: 12px;
+width: 170px;
+height:110px;
+border-radius: 50px;
+border: 3px solid red;
+padding-top: 15px;
+text-align: center;
+}
+
+.buttom_tel a {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 40px;
+  padding-left: 35px;
+
+}
+
+.green-bar {
+  background-color: #a8d435;
+  margin-bottom: 25px;
+}
+
+.body_table {
+  list-style-type: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid cadetblue;
+}
+
+.subtitle {
+text-align: center;
+background-color: #00a6f0;
+}
+
+.table_img {
+  height: 100px;
+  width: auto;
+  padding-left: 45px;
+}
+
+.table_img {
+  transition: 1s;
+}
+
+.table_img:hover {
+  transform: scale(1.5);
+}
+
+.table_head {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #00a6f0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cap {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.price {
+  padding: 10px;
+  color: red;
+  text-align: center;
+}
+
+.description {
+text-align: left;
+}
+
+.signal_name {
+  padding-top: 40px;
+}
+
+.menu__item a {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu__item:before {
+  content: "/";
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu__item:first-child:before {
+  content: "";
+  margin-left: 0;
+  margin-right: 0;   
+}
+
+.black-bar {
+  background-color: rgba(249, 249, 249, 0.753);
+  color: #00a6f0;
+  padding: 20px 0;
+}
+
+.head_contact h2{
+  display: inline;
+}
+
+.head_contact a{
+  color:#00a6f0;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+
+.head_gps {
+background-image: url(img/gps.png);
+background-size: 17px 17px;
+background-repeat: no-repeat;
+}
+
+.head_gps:hover {
+  color: red;
+}
+
+.head_contact {
+  text-align: center;
+}
+
+.tel_hover:hover {
+  color: red;
+}
+
+.black-bar2 {
+  background-color:#a8d435;
+  color: white;
+}
+
+.down-block-footer {
+  font-size: 14px;
+  color: #8d9198;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.left-block-footer {
+  width: 320px;
+  height: 245px;
+  
+
+}
+
+.left-block-footer li a {
+  font-size: 14px;
+  color: white;
+}
+
+.center-block-footer {
+  width: 320px;
+  vertical-align: top;
+
+}
+
+.center-block-footer a {
+font-size: 14px;
+color: white;
+}
+
+.down-block-footer {
+  border-top: 1px solid ;
+}
+
+.left-block-footer li {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.center-block-footer li {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.vk_item {
+  background-image: url(img/vk2.png);
+  background-size: 30px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  vertical-align: middle;
+  margin-left: -8px;
+}
+
+.inst_item {
+  background-image: url(img/inst.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  vertical-align: middle;
+}
+
+.right-block-footer {
+  width: 320px;
+  vertical-align: top;
+
+  height: 245px;
+
+}
+
+.right-block-footer li {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.right-block-footer a {
+  color: #ffffff;
+}
+
+.gps_icon {
+  background-image: url(img/gps.png);
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  vertical-align: middle;
+}
+
+.gps_icon:hover {
+  color: #26354e;
+  font-weight: bold;
+}
+
+.tel_icon {
+  background-image: url(img/tel.png);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  vertical-align: middle;
+}
+
+.tel_icon:hover {
+  color: #26354e;
+  font-weight: bold;
+}
+
+.web_icon {
+  background-image: url(img/site_icon.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  vertical-align: middle;
+}
+
+.web_icon:hover {
+  color: #26354e;
+  font-weight: bold;
+}
+
+.vk_item:hover {
+  color: #26354e;
+  font-weight: bold;
+}
+
+.adr {
+	display: inline;
+}
+
+.adr_foot {
+  color: #26354e;
+  padding-left: 25px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;	
+}
+
+.visually-hidden {   
+  position: absolute;  /* Удаляем элемент из потока документа */    
+  white-space: nowrap; /* Временное решение для неверно произносимого, размазанного текста */   
+  width: 1px;  /* Устанавливаем минимально возможный размер (некоторые скринридеры игнорируют элементы с нулевой высотой и шириной) */
+  height: 1px;    
+  overflow: hidden; /* Скрываем вылезающий за границы контент */    
+  border: 0;/* Сбрасываем любые свойства, которые могут повлиять на размер элемента */
+  padding: 0;   
+  clip: rect(0 0 0 0);/* Вырезаем ту часть контента, которая должна отображаться. *//* Устаревшее свойство clip для старых браузеров */    
+  clip-path: inset(50%);/* clip-path для новых браузеров. inset(50%) определяет область вставки, которая позволит контенту исчезнуть.  */   
+  margin: -1px; /* Похоже, никто до конца не понимает, почему тут margin: -1px. Кроме того, это приводит к проблемам ( https://github.com/h5bp/html5-boilerplate/issues/1985). */
+}
+
+@media (max-width:1200px) {
+  .container {
+      max-width: 970px;
+  }
+}
+
+@media (max-width:992px) {
+  .container {
+      max-width: 750px;
+  }
+}
+
+@media(max-width:767px) {
+  .container {
+      max-width: none;
+  }
+}
+
+@media(max-width:414px) {
+  .mobile_phone{
+    display: block;
+  }
+}
